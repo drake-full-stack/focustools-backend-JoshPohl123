@@ -10,7 +10,11 @@ const taskSchema = new mongoose.Schema({
   completed: {
     type: Boolean,
     default: false
-  }
+  },
+  pomodoroCount: {
+    type: Number,
+    default: 0
+  },
 }, {
   timestamps: true  // Adds createdAt and updatedAt
 });
