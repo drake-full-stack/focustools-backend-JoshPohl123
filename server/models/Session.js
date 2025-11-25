@@ -22,7 +22,7 @@ const sessionSchema = new mongoose.Schema({
   }
 }, {
   timestamps: true
-});
+}); 
 
 const Session = mongoose.model("Session", sessionSchema);
 module.exports = Session;
